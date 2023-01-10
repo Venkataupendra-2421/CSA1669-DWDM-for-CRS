@@ -1,0 +1,17 @@
+R PROGRAM FOR FACTORIAL OF A NUMBER
+
+
+a=as.integer(readline(prompt="Enter the value:"))
+factorial = 1 
+if(a<0)
+{
+  print("Factorial of negative numbers does not exist")
+}else if(a==0)
+{
+  print("Factorial of 0 is 1")
+}else{
+for(i in 1:a){
+factorial =factorial * i
+}
+print(paste("The factorialof",a,"is",factorial))
+}

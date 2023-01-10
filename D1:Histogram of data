@@ -1,0 +1,5 @@
+library (plotrix)
+
+data=c(19,21,54,12,36,12)
+
+hist(data)

@@ -1,0 +1,28 @@
+%%SAVEETHA ARMS PORTAL ATTENDANCE
+
+@relation saveetha_portal
+@attribute regist_number numeric
+@attribute attendance real
+@attribute type {'student','faculty'}
+@attribute phone_number numeric
+@attribute hostel_or_not {'hostel','not'}
+@attribute pending_subjects numeric
+
+@data
+
+
+1145,100,'student',123,'hostel',32
+1119,95,'student',156,'hostel',20
+2103,8,'faculty',203,'hostel',0
+2016,55,'student',222,'not',10
+2022,76.3,'faculty',6256,'not',0
+3065,85.2,'student',5289,'hostel',11
+3075,56.2,'faculty',300,'not',0
+3088,100,'faculty',396,'hostel',0
+4322,6.0,'student',2399,'not',8
+4019,88,'faculty',2400,'not',0
+4022,66,'faculty',1456,'hostel',0
+5066,55.3,'student',1489,'hostel',3
+5088,22.3,'faculty',5001,'not',0
+5099,79.6,'student',5990,'not',5
+5066,66.3,'faculty',7000,'hostel',0
